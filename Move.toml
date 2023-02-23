@@ -1,0 +1,13 @@
+[package]
+name = 'reka_platform_move'
+version = '1.0.0'
+upgrade_policy = "compatible"
+
+[dependencies]
+AptosFramework = {git = 'https://github.com/aptos-labs/aptos-core.git', rev = 'mainnet', subdir = 'aptos-move/framework/aptos-framework'}
+AptosStdlib = {git = 'https://github.com/aptos-labs/aptos-core.git', rev = 'mainnet', subdir = 'aptos-move/framework/aptos-stdlib'}
+AptosToken = {git = 'https://github.com/aptos-labs/aptos-core.git', rev = 'mainnet', subdir = 'aptos-move/framework/aptos-token'}
+MoveStdlib = {git = 'https://github.com/aptos-labs/aptos-core.git', rev = 'mainnet', subdir = 'aptos-move/framework/move-stdlib'}
+
+[addresses]
+rekanetwork = '0xcafe'
